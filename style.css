@@ -1,0 +1,94 @@
+body {
+    background-color: #0d1a2d;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.portable {
+    background-color: #15273f;
+    border-radius: 10px;
+    margin: 100px auto;
+    height: 435px;
+    width: 250px;
+    box-shadow: 0px 0px 30px #0c1729, 0px 0px 30px #0c192c;
+}
+
+.écran {
+    height: 220px;
+    width: 220px;
+    border-radius: 10px;
+    margin: 15px 15px 0 15px;
+}
+
+h1 {
+    font-weight: bold;
+    color: #f8fcff;
+    font-size: 16px;
+    margin: 12px 25px;
+}
+
+h3 {
+    color: #94abcb;
+    font-size: 13px;
+    margin: 5px 25px;
+}
+
+.eth {
+    display: flex;
+    flex-direction: row;
+}
+
+.h4-eth {
+    margin: 5px 25px;
+    font-size: 12px;
+    color: #06fcf6;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.img-eth1 {
+    height: 12px;
+    width: 12px;
+}
+
+.h4-days {
+    margin: 0 0 0 40px;
+    font-size: 14px;
+    color: #8ba6d1;       
+}
+.img-days1 {
+    height: 12px;
+    width: 12px;
+}
+
+.h4-eth, .h4-days {
+    display: flex;
+    align-items: center;
+  }
+
+  .barre {
+    margin: 0 0 0 20px;
+    height: 0px;
+    width: 220px;
+    border: 1px #4e7da1 solid;
+  }
+
+  .img-avata {
+    margin: 10px 0 0 15px;    
+    height: 25px;
+    width: 25px;
+    border: 2px #f8fcff solid;
+    border-radius: 50%;
+  }
+  .nom-aut {
+    font-size: 12px;
+    margin: 15px 0 0 5px;
+  }
+  .coul-blanche{
+    color: #f8fcff;
+    font-weight: bold;
+    font-size: 12px;
+  }
+  .av-nom {
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 0 10px;
+    color: #697fa0;
+  }
